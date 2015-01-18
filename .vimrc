@@ -1,0 +1,14 @@
+set tabstop=4
+set ai
+set copyindent
+set expandtab
+set shiftwidth=4
+set go-=T
+colorscheme turtlechalk
+set guifont=Consolas:h18
+set ruler
+set hlsearch
+set smartcase
+set history=1000
+set undolevels=1000
+syntax on
