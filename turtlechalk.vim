@@ -3,7 +3,7 @@
 " Author:       Sam Rubin <samnrubin@gmail.com>
 " Version:      1.0
 
-" Based on the Vividchalk theme by Tim Pope
+" Based on the vividchalk theme by Tim Pope
 " Distributable under the same terms as Vim itself (see :help license)
 
 if has("gui_running")
@@ -95,9 +95,9 @@ highlight link diffSubname      Comment
 
 call s:hifg("Normal","#EEEEEE","White",87)
 if &background == "light" || has("gui_running")
-    hi Normal guibg=grey12 ctermbg=Black
+    hi Normal guibg=#555577 ctermbg=LightBlue
 else
-    hi Normal guibg=grey12 ctermbg=NONE
+    hi Normal guibg=#555577 ctermbg=LightBlue
 endif
 highlight StatusLine    guifg=Black   guibg=#aabbee gui=bold ctermfg=Black ctermbg=White  cterm=bold
 highlight StatusLineNC  guifg=#444444 guibg=#aaaaaa gui=none ctermfg=Black ctermbg=Grey   cterm=none
@@ -128,7 +128,7 @@ highlight Question      none
 high link Question      MoreMsg
 highlight Title         guifg=Magenta ctermfg=Magenta
 highlight VisualNOS     gui=none cterm=none
-call s:hibg("Visual"    ,"#555577","LightBlue",83)
+call s:hibg("Visual"    ,"#666685","LightBlue",83)
 call s:hibg("VisualNOS" ,"#444444","DarkBlue",81)
 call s:hibg("MatchParen","#1100AA","DarkBlue",18)
 highlight WarningMsg    guifg=Red ctermfg=Red
@@ -174,7 +174,7 @@ endif
 hi Identifier cterm=none
 " Commented numbers at the end are *old* 256 color values
 "highlight PreProc       guifg=#EDF8F9
-call s:hifg("Comment"        ,"#A347D1","DarkMagenta",34) " 92
+call s:hifg("Comment"        ,"#b5dbe8","LightBlue",34) " 92
 " 26 instead?
 call s:hifg("Constant"       ,"#339999","DarkCyan",21) " 30
 call s:hifg("rubyNumber"     ,"#CCFF33","Yellow",60) " 190
@@ -189,5 +189,3 @@ call s:hifg("Special"        ,"#33AA00","DarkGreen",24) " 7
 call s:hifg("Regexp"         ,"#44B4CC","DarkCyan",21) " 74
 call s:hifg("rubyMethod"     ,"#DDE93D","Yellow",77) " 191
 "highlight railsMethod   guifg=#EE1122 ctermfg=1
-
-
