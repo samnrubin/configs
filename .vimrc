@@ -1,8 +1,8 @@
-set tabstop=4
+set tabstop=2
 set ai
 set copyindent
 set expandtab
-set shiftwidth=4
+set shiftwidth=2
 set go-=T
 colorscheme turtlechalk
 set guifont=Consolas:h18
