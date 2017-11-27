@@ -3,7 +3,7 @@ set expandtab
 set shiftwidth=2
 set go-=T
 colorscheme slate
-set guifont=Consolas:h18
+set guifont=Consolas:h24
 set ruler
 set hlsearch
 set smartcase
